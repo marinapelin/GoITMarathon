@@ -1,0 +1,76 @@
+:root{
+    --color-primary:#212121;
+    --color-brand:#2196F3;
+    --color-secondary:#757575;
+    --color-light:#fff;
+    --color-bg-dark:#2F303A;
+    --color-logo: #000;
+}
+body{
+    color: var(--color-primary);
+    font-weight: 400;
+    font-style: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: 26px;
+    line-height: 1.17;
+    color:var(--color-logo);
+}
+.header-logo .accent{
+    color: var(--color-brand);
+}
+.header-link{
+    color:var(--color-primary);
+}
+.header-link:hover {
+    color: var(--color-brand);
+}
+.contacts-link {
+    color: var(--color-secondary);
+}
+
+.contacts-link:hover {
+    color: var(--color-brand);
+}
+/* Hero section */
+.hero-section{
+    background-color: var(--color-bg-dark);
+}
+.hero-title{
+    
+    color: var(--color-light);
+}
+.hero-button{
+    color: var(--color-light);
+    background-color: var(--color-brand);
+}
+/* Benefits section */
+.benefit-text{
+    color:var(--color-secondary);
+}
+/* Team section */
+.person-job{
+    color: var(--color-secondary);
+}
+/* Footer */
+.footer-logo{
+    color:var(--color-light);
+}
+.footer-logo .accent{
+    color: var(--color-brand);
+}
+.adress-link{
+    color: var(--color-light);
+
+}
+.footer-link{
+    color: #FFFFFF99;
+    /* transperancy 60% */
+}
+footer{
+    background-color:  var(--color-bg-dark);
+}
