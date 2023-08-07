@@ -53,6 +53,13 @@ body{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Add your desired background color */
+  }
 a{
     text-decoration: none;
 }
@@ -67,6 +74,12 @@ p{
 }
 /* Header */
 .header-logo{
+    padding-top: 17px;
+    padding-bottom: 18px;
+    display:flex;
+    padding-left: 161px;
+    padding-right: 70px;
+    float: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -85,7 +98,20 @@ p{
 .header-link:hover {
     color: var(--color-brand);
 }
+nav ul {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 150px;
+    list-style: none;
+    display: flex;
+    float: left;
+    gap: 38px;
+    align-items: center;
+  }
 .contacts-link {
+    float: right;
+    display:flex;
+    gap: 22;
     font-weight: 500;
     line-height: 1.17;
     color: var(--color-secondary);
@@ -96,10 +122,11 @@ p{
 }
 /* Hero section */
 .hero-section{
-    
+    height: 450px;
     background-color: var(--color-bg-dark);
 }
 .hero-title{
+    letter-spacing: 0.06em;
     font-weight: 900;
     line-height: 1.36;
     color: var(--color-light);
@@ -107,6 +134,8 @@ p{
     text-transform: uppercase;
 }
 .hero-button{
+    display: block; /* Make the button a block-level element */
+    margin: auto auto;
     font-weight: 700;
     line-height: 1.875;
     text-align:center;
